@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleEventWithPrameters", "SimpleEventWithPrameters.csproj", "{ED4ABEFD-5570-468D-881A-DA30EC6D1708}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-SimpleEventWithPrameters", "1-SimpleEventWithPrameters.csproj", "{ED4ABEFD-5570-468D-881A-DA30EC6D1708}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-TemperatureChangeEventExample", "..\2-TemperatureChangeEventExample\2-TemperatureChangeEventExample.csproj", "{0F3454AC-0C8E-4ABF-A6EF-01B4B3C43AA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{ED4ABEFD-5570-468D-881A-DA30EC6D1708}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED4ABEFD-5570-468D-881A-DA30EC6D1708}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED4ABEFD-5570-468D-881A-DA30EC6D1708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F3454AC-0C8E-4ABF-A6EF-01B4B3C43AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F3454AC-0C8E-4ABF-A6EF-01B4B3C43AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F3454AC-0C8E-4ABF-A6EF-01B4B3C43AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F3454AC-0C8E-4ABF-A6EF-01B4B3C43AA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
