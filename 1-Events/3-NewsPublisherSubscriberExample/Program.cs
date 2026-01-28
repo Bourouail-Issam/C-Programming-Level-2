@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Xml.Linq;
-
 
 public class NewsArticle
 {
-    public string Title { get;}
+    public string Title { get; }
     public string Content { get; }
 
     public NewsArticle(string Title, string Content)
@@ -21,7 +19,7 @@ public class NewsPublisher
 
     public void PublishNews(string Title, string Content)
     {
-        var Article = new NewsArticle(Title, Content);  
+        var Article = new NewsArticle(Title, Content);
         OnNewNewsPublished(Article);
     }
     protected virtual void OnNewNewsPublished(NewsArticle newArticle)
@@ -59,6 +57,7 @@ public class Program
 {
     static void Main()
     {
+
         NewsPublisher publisher = new NewsPublisher();
         NewsSubscriber subscriber1 = new NewsSubscriber("Subscriber 1");
 
