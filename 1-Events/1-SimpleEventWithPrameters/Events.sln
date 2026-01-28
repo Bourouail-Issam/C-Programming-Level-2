@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-SimpleEventWithPrameters"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-TemperatureChangeEventExample", "..\2-TemperatureChangeEventExample\2-TemperatureChangeEventExample.csproj", "{0F3454AC-0C8E-4ABF-A6EF-01B4B3C43AA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-NewsPublisherSubscriberExample", "..\3-NewsPublisherSubscriberExample\3-NewsPublisherSubscriberExample.csproj", "{111DBB4E-6AA8-4BD8-B94A-5DF36DF421F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0F3454AC-0C8E-4ABF-A6EF-01B4B3C43AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F3454AC-0C8E-4ABF-A6EF-01B4B3C43AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F3454AC-0C8E-4ABF-A6EF-01B4B3C43AA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{111DBB4E-6AA8-4BD8-B94A-5DF36DF421F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{111DBB4E-6AA8-4BD8-B94A-5DF36DF421F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{111DBB4E-6AA8-4BD8-B94A-5DF36DF421F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{111DBB4E-6AA8-4BD8-B94A-5DF36DF421F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
