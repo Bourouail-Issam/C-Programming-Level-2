@@ -16,11 +16,9 @@ namespace SimpleEventWithPrameters
         {
             InitializeComponent();
         }
-
-        private void myUserControl1_OnCalculationComplete(double obj)
+        private void myUserControl1_OnCalculationComplete(object sender, MyUserControl.CalculationCompleteEventArgs e)
         {
-            double Results = obj;
-            MessageBox.Show("Results =" + obj);
+            MessageBox.Show($"Results={e.Result} , val1 = {e.Value1}, vale2 = {e.value2}");
         }
     }
 }

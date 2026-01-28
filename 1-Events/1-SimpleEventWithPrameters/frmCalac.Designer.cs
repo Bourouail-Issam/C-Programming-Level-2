@@ -41,7 +41,7 @@
             this.myUserControl1.Name = "myUserControl1";
             this.myUserControl1.Size = new System.Drawing.Size(525, 184);
             this.myUserControl1.TabIndex = 0;
-            this.myUserControl1.OnCalculationComplete += new System.Action<double>(this.myUserControl1_OnCalculationComplete);
+            this.myUserControl1.OnCalculationComplete += new System.EventHandler<SimpleEventWithPrameters.MyUserControl.CalculationCompleteEventArgs>(this.myUserControl1_OnCalculationComplete);
             // 
             // frmCalac
             // 
