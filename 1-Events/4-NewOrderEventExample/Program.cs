@@ -120,14 +120,13 @@ public class Program
         SMSService smsService = new SMSService();
         ShippingService shippingService = new ShippingService();
 
-
         emailService.Subscribe(order);
         smsService.Subscribe(order);
         shippingService.Subscribe(order);
 
         order.Create(10, 540, "Ahmed@gmail.com");
-        shippingService.UnSubscribe(order);
 
+        shippingService.UnSubscribe(order);
         order.Create(11, 300, "Ali@gmail.com");
 
         Console.ReadLine();
