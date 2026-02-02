@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5D870E4C-54A1-41B0-A290-EBC16B2C7A77}</ProjectGuid>
+    <ProjectGuid>{76EF6403-612E-44CA-AA9E-95A956945040}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_5_ActionDelegate</RootNamespace>
-    <AssemblyName>5-ActionDelegate</AssemblyName>
+    <RootNamespace>_6_PredicateDelegate</RootNamespace>
+    <AssemblyName>6-PredicateDelegate</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
