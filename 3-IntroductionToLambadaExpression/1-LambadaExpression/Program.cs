@@ -11,6 +11,28 @@ namespace _1_LambadaExpression
         // Define a Func delegate for squaring a number using a lambda expression
         static Func<int, int> square = x => x * x;
 
+        // A delegate that represents an operation
+        delegate int Operation(int x, int y);
+
+        // A function that takes a delegate with parameters and invokes it
+        static void ExecuteOperation(int x, int y, Operation operation)
+        {
+            int result = operation(x, y); // Invoke the provided delegate
+            Console.WriteLine("Result: " + result);
+        }
+
+        // A method that performs addition
+        static int Add(int x, int y)
+        {
+            return x + y;
+        }
+
+        // A method that performs subtraction
+        static int Sub(int x, int y)
+        {
+            return x - y;
+        }
+
         static void Main(string[] args)
         {
 
@@ -18,7 +40,7 @@ namespace _1_LambadaExpression
             //############# Exemple 1 #############
             //          Lambda Expression  
             //#####################################
-            Console.WriteLine("=>Exemple 1 : use Lambda Expression");
+            Console.WriteLine("=> Exemple 1 : use Lambda Expression");
 
             // Use the square Func to square the number 5
             int result = square(5);
@@ -30,7 +52,7 @@ namespace _1_LambadaExpression
             //############### Exemple 2 ###############
             //  Action Delegate With Lambda Expression
             //#########################################
-            Console.WriteLine("\n=>Exemple 2 : use Action Delegate With Lambda Expression");
+            Console.WriteLine("\n=> Exemple 2 : use Action Delegate With Lambda Expression");
 
             Action parameterlessAction = () =>
             {
@@ -52,6 +74,19 @@ namespace _1_LambadaExpression
             parameterlessAction();
             actionWithIntParameter(42);
             actionWithMultipleParameters("Hello, World!", 100);
+
+            //#########################################
+            //############### Exemple 3 ###############
+            //       Delegate Example No Lambda
+            //#########################################
+            Console.WriteLine("\n=> Exemple 3 : Delegate Example No Lambda");
+
+            // Use the Add method with the delegate
+            Operation AddOp = Add;
+            Operation SubOp = Sub;
+
+            ExecuteOperation(10, 20, AddOp); // Pass the delegate as an argument
+            ExecuteOperation(10, 20, SubOp); // Pass the delegate as an argument
 
             Console.ReadKey();
         }
