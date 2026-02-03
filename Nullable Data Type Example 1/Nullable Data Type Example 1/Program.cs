@@ -31,9 +31,9 @@ namespace Nullable_Data_Type_Example_1
             int result = nullableInt2 ?? 0;
             Console.WriteLine("Using null-coalescing operator: " + result);
 
-            //string? nullableString = null;
-            //string result2 = nullableString ?? string.Empty;
-            //Console.WriteLine("Using null-coalescing operator: " + result2);
+            string nullableString = null;
+            string result2 = nullableString ?? string.Empty;
+            Console.WriteLine("Using null-coalescing operator: " + result2);
 
             // Using the null-conditional operator
             string stringValue = nullableInt2?.ToString();
