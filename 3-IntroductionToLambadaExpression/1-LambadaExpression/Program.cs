@@ -21,6 +21,13 @@ namespace _1_LambadaExpression
             Console.WriteLine("Result: " + result);
         }
 
+        // now we use fun and lambda Expression 
+        static void ExecuteOperation(int x, int y, Func<int, int, int> Operation)
+        {
+            int result = Operation(x, y); // Invoke the provided delegate
+            Console.WriteLine("Result: " + result);
+        }
+
         // A method that performs addition
         static int Add(int x, int y)
         {
@@ -79,7 +86,7 @@ namespace _1_LambadaExpression
             //############### Exemple 3 ###############
             //       Delegate Example No Lambda
             //#########################################
-            Console.WriteLine("\n=> Exemple 3 : Delegate Example No Lambda");
+            Console.WriteLine("\n=> Exemple 3 : Use Delegate Example No Lambda");
 
             // Use the Add method with the delegate
             Operation AddOp = Add;
@@ -87,6 +94,21 @@ namespace _1_LambadaExpression
 
             ExecuteOperation(10, 20, AddOp); // Pass the delegate as an argument
             ExecuteOperation(10, 20, SubOp); // Pass the delegate as an argument
+
+
+            //#########################################
+            //############### Exemple 4 ###############
+            //   Func Delegate with lambda Example
+            //#########################################
+            Console.WriteLine("\n=> Exemple 4 : Use Func Delegate with lambda Example");
+
+            // now use the way 2 instead of previous way
+            // Use a lambda expression for addition
+            Func<int, int, int> AddUseFunc = (x, y) => x + y;
+            Func<int, int, int> SubUseFunc = (x, y) => x - y;
+
+            ExecuteOperation(10, 20, AddUseFunc); // Pass the lambda expression as an argument
+            ExecuteOperation(10, 20, SubUseFunc); // Pass the lambda expression as an argument
 
             Console.ReadKey();
         }
