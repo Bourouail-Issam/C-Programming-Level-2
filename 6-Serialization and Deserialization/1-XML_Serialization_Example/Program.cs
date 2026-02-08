@@ -34,6 +34,8 @@ namespace _1_XML_Serialization_Example
         {
             // Create an instance of the Person class
             Person person = new Person(1,"Micheal",42);
+            Person person2 = new Person {Id=2,Name="Jeon",Age=29};
+
 
             // XML serialization
             XmlSerializer serializer = new XmlSerializer(typeof(Person));

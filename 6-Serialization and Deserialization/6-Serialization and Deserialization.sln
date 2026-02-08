@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36511.14 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-XML_Serialization_Example", "1-XML_Serialization_Example\1-XML_Serialization_Example.csproj", "{AB6A433E-43DE-428B-BC86-2B21DD12299C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-Json_Serialization_Example", "2-Json_Serialization_Example\2-Json_Serialization_Example.csproj", "{15638910-FBDC-45C2-87B8-9D9B8A6886BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AB6A433E-43DE-428B-BC86-2B21DD12299C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB6A433E-43DE-428B-BC86-2B21DD12299C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB6A433E-43DE-428B-BC86-2B21DD12299C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15638910-FBDC-45C2-87B8-9D9B8A6886BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15638910-FBDC-45C2-87B8-9D9B8A6886BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15638910-FBDC-45C2-87B8-9D9B8A6886BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15638910-FBDC-45C2-87B8-9D9B8A6886BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
