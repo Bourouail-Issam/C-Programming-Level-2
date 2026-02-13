@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 namespace _2_Json_Serialization_Example
 {
-    //[Serializable]
+    [Serializable]
     public class Person
     {
         public string Name { get; set; }

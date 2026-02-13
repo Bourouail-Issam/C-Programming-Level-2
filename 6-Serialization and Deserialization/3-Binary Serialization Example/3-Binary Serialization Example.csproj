@@ -7,7 +7,7 @@
     <ProjectGuid>{4BE1EDAD-CB14-44CB-AF7C-DDD943422770}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_3_Binary_Serialization_Example</RootNamespace>
-    <AssemblyName>_3_Binary_Serialization_Example</AssemblyName>
+    <AssemblyName>3-Binary Serialization Example</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

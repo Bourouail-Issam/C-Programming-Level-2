@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-XML_Serialization_Example
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-Json_Serialization_Example", "2-Json_Serialization_Example\2-Json_Serialization_Example.csproj", "{15638910-FBDC-45C2-87B8-9D9B8A6886BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-Binary Serialization Example", "3-Binary Serialization Example\3-Binary Serialization Example.csproj", "{4BE1EDAD-CB14-44CB-AF7C-DDD943422770}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{15638910-FBDC-45C2-87B8-9D9B8A6886BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15638910-FBDC-45C2-87B8-9D9B8A6886BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15638910-FBDC-45C2-87B8-9D9B8A6886BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BE1EDAD-CB14-44CB-AF7C-DDD943422770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE1EDAD-CB14-44CB-AF7C-DDD943422770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE1EDAD-CB14-44CB-AF7C-DDD943422770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE1EDAD-CB14-44CB-AF7C-DDD943422770}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
