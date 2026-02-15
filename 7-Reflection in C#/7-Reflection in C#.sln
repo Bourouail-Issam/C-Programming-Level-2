@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36511.14 d17.14
+VisualStudioVersion = 17.14.36511.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-Type_Class", "1-Type_Class\1-Type_Class.csproj", "{2006C499-AA21-4E7F-BD2E-ACD23BE742E6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-Navigate_String_Library_Using_Reflection_Example", "2-Navigate_String_Library_Using_Reflection_Example\2-Navigate_String_Library_Using_Reflection_Example.csproj", "{ABA607EC-C551-4A24-A234-04CD7EA34F9F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-Reflection_Dynamically_Create_Objects_And_Invoke_Methods", "3-Reflection_Dynamically_Create_Objects_And_Invoke_Methods\3-Reflection_Dynamically_Create_Objects_And_Invoke_Methods.csproj", "{9CF2F7BF-746B-4494-B729-DBDA382E90B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-Reflection_With_Custom_Attributes", "4-Reflection_With_Custom_Attributes\4-Reflection_With_Custom_Attributes.csproj", "{2B41ACAD-5140-4B58-8FCD-50A621752134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-Custom_Attributes_For_Validation_Example", "5-Custom_Attributes_For_Validation_Example\5-Custom_Attributes_For_Validation_Example.csproj", "{310FF2E7-C2C4-44A5-B48F-B80E31F896B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{9CF2F7BF-746B-4494-B729-DBDA382E90B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CF2F7BF-746B-4494-B729-DBDA382E90B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CF2F7BF-746B-4494-B729-DBDA382E90B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B41ACAD-5140-4B58-8FCD-50A621752134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B41ACAD-5140-4B58-8FCD-50A621752134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B41ACAD-5140-4B58-8FCD-50A621752134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B41ACAD-5140-4B58-8FCD-50A621752134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{310FF2E7-C2C4-44A5-B48F-B80E31F896B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{310FF2E7-C2C4-44A5-B48F-B80E31F896B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{310FF2E7-C2C4-44A5-B48F-B80E31F896B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{310FF2E7-C2C4-44A5-B48F-B80E31F896B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
